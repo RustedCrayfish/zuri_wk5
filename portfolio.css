@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+}
+body{
+    background-color: darkgray;
+}
+.logo{
+    font-family: cursive;
+    color: chocolate;
+    font-size: 35px;
+    line-height: 30px;
+    padding: 0 100px;
+    /* check what line-height does later. it moved my logo element a little*/
+    
+    
+}
+.ddevlogo{
+    font-family: cursive;
+    color: chocolate;
+    font-size: 35px;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    
+}
+nav {
+    height: 80px;   
+    width: 100%;
+    background-color: #c492bb;
+    display: flex;
+    align-items: center;
+    
+ 
+}
+nav ul{
+    float: right;
+    margin-right: 50pxpx;
+   
+}
+
+nav li{
+    display: inline-block;
+}
+   
+
+nav a{
+    padding: 10px 55px;
+    border: 1px solid transparent;
+    color: antiquewhite;
+    
+}
+
+li a:hover{
+    background-color:gold;
+    transition: 5s;
+    border: none;
+}
+img{
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+#about{
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: brown;
+    
+}
+button:hover{
+    background-color: green;
+    color: black;
+}
+form{
+    display: contents;
+    padding: 25px;
+    background-color: goldenrod;
+    
+
+}
+.container{
+    display: contents;
+}
+.submit{
+    box-sizing:border-box;
+    background-color: gray ;
+    text-align: center;
+    width: 33.33%;
+    height: fit-content;
+    padding: 100x;
+    margin: 0 auto;
+   
+
+    border: 100px;
+}
+.service{
+    text-align: center;
+}
+p{
+    text-align: center;
+    text-decoration: none;
+        
+}
+#about{
+    text-align: center;
+}
+
+.lorem{
+    color: rgba(61, 19, 6, 0.452);
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 74px;
+}
+
+#projects{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    padding: 40px;
+}
+
+footer{
+    padding-top: 100px;
+}
+
